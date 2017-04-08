@@ -3,4 +3,5 @@
     <string name="default_text">--</string>
     <string name="app_name">Stress_App</string>
     <string name="title_activity_main">Stress App</string>
+    <string name="title_activity_journal">Journal</string>
 </resources>

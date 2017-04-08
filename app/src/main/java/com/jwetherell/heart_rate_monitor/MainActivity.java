@@ -24,4 +24,10 @@ public class MainActivity extends Activity {
         MainActivity.this.startActivity(intent);
     }
 
+    public void getJournal(View view) {
+        Intent intent = new Intent(MainActivity.this, Journal.class);
+        MainActivity.this.startActivity(intent);
+    }
+
+
 }
