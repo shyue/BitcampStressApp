@@ -5,17 +5,22 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.util.Log;
+import android.content.Context;
 public class MainActivity extends Activity {
+
+    public static Context appstate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
+        appstate = getApplicationContext();
     }
 
     public void getHeartbeat(View view) {
         Log.i("Debug", "Recieved");
         Intent intent = new Intent(MainActivity.this, HeartRateMonitor.class);
+        //intent.putExtra("Context",this.getApplicationContext());
         MainActivity.this.startActivity(intent);
     }
 

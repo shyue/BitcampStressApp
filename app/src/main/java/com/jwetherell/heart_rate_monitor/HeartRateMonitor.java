@@ -1,5 +1,11 @@
 package com.jwetherell.heart_rate_monitor;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import android.app.Activity;
@@ -40,6 +46,7 @@ public class HeartRateMonitor extends Activity {
     private static final int averageArraySize = 4;
     private static final int[] averageArray = new int[averageArraySize];
 
+    private static String textValWrite = "";
     public static enum TYPE {
         GREEN, RED
     };
@@ -196,6 +203,23 @@ public class HeartRateMonitor extends Activity {
                 }
                 int beatsAvg = (beatsArrayAvg / beatsArrayCnt);
                 text.setText(String.valueOf(beatsAvg));
+                textValWrite = String.valueOf(beatsAvg);
+                try {
+                    FileOutputStream fOut = MainActivity.appstate.openFileOutput("heartbeat.txt", Context.MODE_APPEND);
+                    fOut.write((textValWrite+"\n").getBytes());
+                    fOut.close();
+                }catch (Exception e){Log.i("debug", "fail");};
+
+                try{
+                    File file = new File(MainActivity.appstate.getFilesDir()+"/heartbeat.txt");
+                    FileReader fileReader = new FileReader(file);
+                    BufferedReader bufferedReader = new BufferedReader(fileReader);
+                    String line;
+                    while ((line = bufferedReader.readLine()) != null) {
+                        Log.i("debug", line);
+                    }
+                    fileReader.close();
+                }catch (Exception e){Log.i("debug", "read fail");};
                 startTime = System.currentTimeMillis();
                 beats = 0;
             }
