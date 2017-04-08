@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 47,
+                    "endOffset": 212
+                },
+                "from": {
+                    "file": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 47,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 217,
+                    "endColumn": 43,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 58,
+                    "endOffset": 315
+                },
+                "from": {
+                    "file": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\green_icon.png",
+        "source": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\drawable-mdpi\\green_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\red_icon.png",
+        "source": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\drawable-mdpi\\red_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]
