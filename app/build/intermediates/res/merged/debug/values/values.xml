@@ -4,6 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="app_name">Stress_App</string>
     <string name="default_text">--</string>
+    <string name="title_activity_achievements">Achievements</string>
     <string name="title_activity_journal">Journal</string>
     <string name="title_activity_main">Stress App</string>
     <string name="title_activity_notification">Notification</string>

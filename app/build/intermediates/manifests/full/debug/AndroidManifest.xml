@@ -54,6 +54,10 @@
         <service
             android:name="com.jwetherell.heart_rate_monitor.MyNewIntentService"
             android:exported="false" />
+
+        <activity
+            android:name="com.jwetherell.heart_rate_monitor.Achievements"
+            android:label="@string/title_activity_achievements" />
     </application>
 
 </manifest>

@@ -6,25 +6,13 @@
     android:layout_height="fill_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="  Stress App"
-        android:height="6dp"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="0dp"
-        android:textColor="#000000"
-        android:background="#FF9800" />
-
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/bitcamp"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="120dp" />
 
     <Button
         android:alpha="0.8"
@@ -77,5 +65,6 @@
         android:text="Achievements"
         android:id="@+id/button7"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="-160dp" />
+        android:layout_marginTop="-160dp"
+        android:onClick="getAchievements" />
 </LinearLayout>

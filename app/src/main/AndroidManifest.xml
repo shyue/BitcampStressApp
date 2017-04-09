@@ -17,8 +17,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
@@ -46,15 +44,20 @@
             android:label="@string/title_activity_survey" />
         <activity
             android:name=".Notificationer"
-            android:label="@string/title_activity_notification"></activity>
+            android:label="@string/title_activity_notification" />
+
         <receiver
             android:name=".MyReceiver"
             android:enabled="true"
-            android:exported="false"></receiver>
+            android:exported="false" />
 
         <service
             android:name=".MyNewIntentService"
-            android:exported="false"></service>
+            android:exported="false" />
+
+        <activity
+            android:name=".Achievements"
+            android:label="@string/title_activity_achievements"></activity>
     </application>
 
 </manifest>

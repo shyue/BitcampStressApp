@@ -38,4 +38,9 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(MainActivity.this, Notificationer.class);
         MainActivity.this.startActivity(intent);
     }
+
+    public void getAchievements(View view) {
+        Intent intent = new Intent(MainActivity.this, Achievements.class);
+        MainActivity.this.startActivity(intent);
+    }
 }

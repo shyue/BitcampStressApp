@@ -64,16 +64,20 @@
         "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements.xml",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\layout\\activity_achievements.xml"
+    },
+    {
         "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
