@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -68,8 +69,21 @@ public class Achievements extends Activity {
         TextView header = new TextView(MainActivity.appstate);
         header.setTextSize(30f);
         header.setTextColor(Color.BLACK);
-        header.setText("Achievements: Level "+(level+1));
+        header.setText("Achievements");
+        LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        llp.setMargins(20, -200, 0, 0); // llp.setMargins(left, top, right, bottom);
+        header.setLayoutParams(llp);
         root.addView(header);
+
+        header = new TextView(MainActivity.appstate);
+        header.setTextSize(20f);
+        header.setTextColor(Color.BLACK);
+        header.setText("Level " + (level + 1) + ": " + totPoints);
+        llp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        llp.setMargins(20, 0, 0, 0); // llp.setMargins(left, top, right, bottom);
+        header.setLayoutParams(llp);
+        root.addView(header);
+
         for (Integer i: awards){
             TextView a = new TextView(MainActivity.appstate);
             TextView b = new TextView(MainActivity.appstate);
@@ -79,6 +93,11 @@ public class Achievements extends Activity {
             b.setTextColor(Color.BLACK);
             a.setText(awardVals[i][0]);
             b.setText(awardVals[i][1]);
+            llp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            llp.setMargins(20, 0, 0, 0); // llp.setMargins(left, top, right, bottom);
+            a.setLayoutParams(llp);
+            b.setLayoutParams(llp);
+
             root.addView(a);
             root.addView(b);
         }
