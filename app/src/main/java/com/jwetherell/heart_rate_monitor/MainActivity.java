@@ -34,4 +34,8 @@ public class MainActivity extends Activity {
         MainActivity.this.startActivity(intent);
     }
 
+    public void getNotificationer(View view) {
+        Intent intent = new Intent(MainActivity.this, Notificationer.class);
+        MainActivity.this.startActivity(intent);
+    }
 }

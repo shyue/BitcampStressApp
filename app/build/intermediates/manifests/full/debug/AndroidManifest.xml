@@ -42,6 +42,18 @@
         <activity
             android:name="com.jwetherell.heart_rate_monitor.Survey"
             android:label="@string/title_activity_survey" />
+        <activity
+            android:name="com.jwetherell.heart_rate_monitor.Notificationer"
+            android:label="@string/title_activity_notification" />
+
+        <receiver
+            android:name="com.jwetherell.heart_rate_monitor.MyReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name="com.jwetherell.heart_rate_monitor.MyNewIntentService"
+            android:exported="false" />
     </application>
 
 </manifest>

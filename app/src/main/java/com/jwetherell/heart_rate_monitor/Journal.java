@@ -14,6 +14,7 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -79,8 +80,8 @@ public class Journal extends Activity {
 
         try {
             FileOutputStream fOut = MainActivity.appstate.openFileOutput("journal.txt", Context.MODE_APPEND);
-            fOut.write((val+"\n").getBytes());
-            Log.i("debug", val+"");
+            fOut.write(((new Date()).toString() + " " + val + "\n").getBytes());
+            Log.i("debug", val + "");
             fOut.close();
         }catch (Exception e){Log.i("debug", "fail");};
 

@@ -83,7 +83,14 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 57,
+                        "endOffset": 143
+                    }
                 }
             },
             {
@@ -95,7 +102,14 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 55,
+                        "endOffset": 200
+                    }
                 }
             },
             {
@@ -107,7 +121,14 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 47,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -119,7 +140,14 @@
                     "endOffset": 256
                 },
                 "from": {
-                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 43,
+                        "endOffset": 96
+                    }
                 }
             },
             {
@@ -131,7 +159,14 @@
                     "endOffset": 315
                 },
                 "from": {
-                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 211,
+                        "endColumn": 58,
+                        "endOffset": 265
+                    }
                 }
             },
             {
@@ -143,7 +178,14 @@
                     "endOffset": 374
                 },
                 "from": {
-                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 58,
+                        "endOffset": 205
+                    }
                 }
             },
             {
@@ -151,8 +193,27 @@
                     "startLine": 8,
                     "startColumn": 4,
                     "startOffset": 379,
+                    "endColumn": 68,
+                    "endOffset": 443
+                },
+                "from": {
+                    "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 68,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 448,
                     "endColumn": 56,
-                    "endOffset": 431
+                    "endOffset": 500
                 },
                 "from": {
                     "file": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\values\\strings.xml",

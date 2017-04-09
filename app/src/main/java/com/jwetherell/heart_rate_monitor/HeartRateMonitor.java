@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.Date;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import android.app.Activity;
@@ -206,7 +207,7 @@ public class HeartRateMonitor extends Activity {
                 textValWrite = String.valueOf(beatsAvg);
                 try {
                     FileOutputStream fOut = MainActivity.appstate.openFileOutput("heartbeat.txt", Context.MODE_APPEND);
-                    fOut.write((textValWrite+"\n").getBytes());
+                    fOut.write(((new Date()).toString() + " " + textValWrite + "\n").getBytes());
                     fOut.close();
                 }catch (Exception e){Log.i("debug", "fail");};
 

@@ -6,5 +6,6 @@
     <string name="default_text">--</string>
     <string name="title_activity_journal">Journal</string>
     <string name="title_activity_main">Stress App</string>
+    <string name="title_activity_notification">Notification</string>
     <string name="title_activity_survey">Survey</string>
 </resources>

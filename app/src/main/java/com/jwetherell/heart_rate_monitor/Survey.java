@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Date;
 
 
 public class Survey extends Activity {
@@ -124,7 +125,7 @@ public class Survey extends Activity {
 
         try {
             FileOutputStream fOut = MainActivity.appstate.openFileOutput("Answers.txt", Context.MODE_APPEND);
-            fOut.write((total+"\t"+intensity+"\t"+polarity+"\t"+mood+"\n").getBytes());
+            fOut.write(((new Date()).toString() + " " + total + "\t" + intensity + "\t" + polarity + "\t" + mood + "\n").getBytes());
             fOut.close();
         }catch (Exception e){
             Log.i("debug", "fail");};

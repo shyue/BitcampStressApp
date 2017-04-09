@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bitcamp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:alpha="0.8"
+        android:layout_width="242dp"
+        android:layout_height="67dp"
+        android:text="Turn off notifications?"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/sleep"
+        android:onClick="getSleep" />
+</LinearLayout>
