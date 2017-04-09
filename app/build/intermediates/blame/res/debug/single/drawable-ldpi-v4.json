@@ -1,6 +1,70 @@
 [
     {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_btn_checkbox_unchecked_mtrl.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_btn_checkbox_unchecked_mtrl.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_overflow_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_overflow_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_cut_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_cut_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_btn_radio_on_mtrl.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_btn_radio_on_mtrl.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_paste_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_paste_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_copy_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_copy_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_btn_radio_off_mtrl.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_btn_radio_off_mtrl.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_ab_back_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_ab_back_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_share_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_share_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_voice_search_api_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_voice_search_api_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\bitcamp.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\src\\main\\res\\drawable-ldpi\\bitcamp.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_btn_checkbox_checked_mtrl.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_btn_checkbox_checked_mtrl.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_clear_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_clear_material.png"
+    },
+    {
         "merged": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
         "source": "C:\\Users\\guest1\\AndroidStudioProjects\\BitcampStressApp\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_go_search_api_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_go_search_api_material.png"
+    },
+    {
+        "merged": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_selectall_material.png",
+        "source": "C:\\Users\\guest1\\Documents\\GitHub\\BitcampStressApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_selectall_material.png"
     }
 ]

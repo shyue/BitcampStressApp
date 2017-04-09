@@ -29,5 +29,9 @@ public class MainActivity extends Activity {
         MainActivity.this.startActivity(intent);
     }
 
+    public void getSurvey(View view) {
+        Intent intent = new Intent(MainActivity.this, Survey.class);
+        MainActivity.this.startActivity(intent);
+    }
 
 }

@@ -7,61 +7,74 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Stress App"
+        android:text="  Stress App"
+        android:height="6dp"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:textColor="#000000" />
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:background="#FF9800" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bitcamp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
 
     <Button
+        android:alpha="0.8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Heart Rate"
         android:id="@+id/button"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:onClick="getHeartbeat" />
+        android:layout_marginTop="-120dp"
+        android:onClick="getHeartbeat"
+        android:layout_gravity="left"
+        android:layout_marginLeft="55dp" />
 
     <Button
+        android:alpha="0.8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Journal"
         android:id="@+id/button2"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="-50dp"
+        android:onClick="getJournal"
+        android:layout_gravity="right"
+        android:layout_marginRight="55dp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Goal Setting"
-        android:id="@+id/button3"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp" />
-
-    <Button
+        android:alpha="0.8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Survey"
         android:id="@+id/button4"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="55dp"
+        android:onClick="getSurvey" />
 
     <Button
+        android:alpha="0.8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mood Scale"
-        android:id="@+id/button5"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Set Sleep"
+        android:text="Notifications"
         android:id="@+id/button6"
+        android:layout_gravity="right"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="55dp" />
+
+    <Button
+        android:alpha="0.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        android:id="@+id/button7"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="-160dp" />
 </LinearLayout>

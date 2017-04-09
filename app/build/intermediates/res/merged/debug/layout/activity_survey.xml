@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Survey">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek1"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek2"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 3"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek3"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 4"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek4"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 5"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek5"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 6"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek6"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 7"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek7"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 8"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek8"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 9"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek9"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 10"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek10"
+        android:max="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 11"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek11"
+        android:max="100"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 12"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/seek12"
+        android:max="100"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:onClick="results" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+

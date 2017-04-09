@@ -35,10 +35,13 @@
         </activity>
         <activity
             android:name=".HeartRateMonitor"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".Journal"
-            android:label="@string/title_activity_journal"></activity>
+            android:label="@string/title_activity_journal" />
+        <activity
+            android:name=".Survey"
+            android:label="@string/title_activity_survey"></activity>
     </application>
 
 </manifest>

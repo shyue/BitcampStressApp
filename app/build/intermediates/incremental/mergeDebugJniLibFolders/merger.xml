@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\guest1\AndroidStudioProjects\BitcampStressApp\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\guest1\AndroidStudioProjects\BitcampStressApp\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\guest1\Documents\GitHub\BitcampStressApp\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\guest1\Documents\GitHub\BitcampStressApp\app\src\debug\jniLibs"/></dataSet></merger>
